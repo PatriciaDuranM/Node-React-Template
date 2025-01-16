@@ -1,4 +1,4 @@
-// const usersController = [];
+// const usersController = {};
 // const fs = require("fs");
 // const path = require("path");
 // const pathFile = path.resolve(__dirname, "../../data/users.json");
