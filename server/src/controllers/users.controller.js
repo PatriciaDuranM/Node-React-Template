@@ -69,7 +69,7 @@
 
 // usersController.updateUsers = (req, res) => {
 //   /*buscar por id*/
-//   const userId = req.params.id;
+//   const { id } = req.params;
 //   /*primero leemos para buscar*/
 //   fs.readFile(pathFile, (error, data) => {
 //     if (error) {
