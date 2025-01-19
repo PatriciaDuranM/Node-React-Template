@@ -44,7 +44,8 @@
 
 // usersController.deleteUser = (req, res) => {
 //   /*buscar por id*/
-//   const userId = req.params.id;
+//   const { id } = req.params;
+// esto es igual a const (id = req.params.id) pero con esta manera hay que hacer una línea por constante, en la otra podemos meter las constantes en los {}
 //   /*primero leer*/
 //   fs.readFile(pathFile, (error, data) => {
 //     if (error) {
